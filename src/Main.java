@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -133,6 +134,24 @@ System.out.println("На каждого ученика рассчитано " + 
 
         System.out.println ("Итоги всех подсчетов сброса веса: Быстрый - " + shortCount +
                 ", средний - " + average + ", долгий - " + longCount);
+    }
+    public static void task8() {
+        System.out.println("Задание 8");
+
+        int mashaSalary = 67760;
+        float mashaChange = (float) (mashaSalary * 0.1);
+        float mashaGrow = mashaSalary + mashaChange;
+        System.out.println("Маша теперь получает " + mashaGrow + " рублей. Годовой доход вырос на " + mashaChange + " рублей");
+
+        int denisSalary = 83690;
+        float denisChange = (float) (denisSalary * 0.1);
+        float denisGrow = denisSalary + denisChange;
+        System.out.println("Денис теперь получает " + denisGrow + " рублей. Годовой доход вырос на " + denisChange + " рублей");
+
+        int kristinaSalary = 76230;
+        float kristinaChange = (float) (kristinaSalary * 0.1);
+        float kristinaGrow = kristinaSalary + kristinaChange;
+        System.out.println("Кристина теперь получает " + kristinaGrow + " рублей. Годовой доход вырос на " + kristinaChange + " рублей");
     }
 
 }
