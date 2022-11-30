@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -43,6 +44,7 @@ public class Main {
         System.out.println(J + " принадлежит byte" );
     }
     public static void task3() {
+        System.out.println("Задание 3");
 byte LP = 23;
 byte AS = 27;
 byte EA = 30;
@@ -50,5 +52,28 @@ int allStudents = LP + AS + EA;
 short sheetsOfPaper = 480;
 int PaperForStudent = sheetsOfPaper / allStudents;
 System.out.println("На каждого ученика рассчитано " + PaperForStudent + " листов бумаги");
+    }
+    public static void task4() {
+        System.out.println("Задание 4");
+        byte battles2m = 16;
+        byte timeProduct = 2;
+        int production1Minute = battles2m / timeProduct;
+
+        int For20Minutes = production1Minute * 20;
+        System.out.println("За 20 минут работы машины произвела бутылок " + For20Minutes + " штук");
+
+        byte hourDay = 24;
+        byte minuteHour = 60;
+        int minutesDay = hourDay * minuteHour;
+        int ForDay = minutesDay * production1Minute;
+        System.out.println("За день работы машины произвела бутылок " + ForDay + " штук");
+
+        byte day3 = 3;
+        int ForHolidays = minutesDay * day3 * production1Minute;
+        System.out.println("За 3 дня работы машины произвела бутылок " + ForHolidays + " штук");
+
+        byte month = 30;
+        int forMonth = minutesDay * month * production1Minute;
+        System.out.println("За 1 месяц работы машины произвела бутылок " + forMonth + " штук");
     }
 }
