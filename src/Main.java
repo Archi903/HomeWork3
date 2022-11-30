@@ -144,9 +144,9 @@ System.out.println("На каждого ученика рассчитано " + 
         System.out.println("Маша теперь получает " + mashaGrow + " рублей. Годовой доход вырос на " + mashaChange + " рублей");
 
         int denisSalary = 83690;
-        float denisChange = (float) (denisSalary * 0.1);
-        float denisGrow = denisSalary + denisChange;
-        System.out.println("Денис теперь получает " + denisGrow + " рублей. Годовой доход вырос на " + denisChange + " рублей");
+        float denChange = (float) (denisSalary * 0.1);
+        float denGrow = denisSalary + denChange;
+        System.out.println("Денис теперь получает " + denGrow + " рублей. Годовой доход вырос на " + denChange + " рублей");
 
         int kristinaSalary = 76230;
         float kristinaChange = (float) (kristinaSalary * 0.1);
