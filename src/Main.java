@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
 
     public static void task1() {
@@ -75,5 +76,19 @@ System.out.println("На каждого ученика рассчитано " + 
         byte month = 30;
         int forMonth = minutesDay * month * production1Minute;
         System.out.println("За 1 месяц работы машины произвела бутылок " + forMonth + " штук");
+    }
+    public static void task5() {
+        System.out.println("Задание 5");
+
+        byte cans = 120;
+        byte whiteCons = 2;
+        byte brownCons = 4;
+        int cons1Class = whiteCons + brownCons;
+        int Classes = cans / cons1Class;
+        int amountWHite = whiteCons * Classes;
+        int amountBrown = brownCons * Classes;
+        System.out.println("В школе, где " + Classes + " классов, нужно " + amountWHite +
+                " банок белой краски и " + amountBrown + " банок коричневой краски");
+
     }
 }
