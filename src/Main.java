@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -91,4 +92,29 @@ System.out.println("На каждого ученика рассчитано " + 
                 " банок белой краски и " + amountBrown + " банок коричневой краски");
 
     }
+    public static void task6() {
+        System.out.println("Задание 6");
+
+        byte bananas = 5;
+        byte bananaWeight = 80;
+        int totalBanana = bananas * bananaWeight;
+
+        byte milk = 2;
+        byte amountGram = 105;
+        int totalMilk = milk * amountGram;
+
+        byte IceCream = 2;
+        byte weight = 100;
+        int totalIce = IceCream * weight;
+
+        byte eggs = 4;
+        byte eggsWeight = 70;
+        int totalEggs = eggs * eggsWeight;
+
+        System.out.println("Такой спорт завтрак весит " + (totalBanana + totalMilk +
+                totalIce + totalEggs) + " грамм");
+
+
+    }
+
 }
