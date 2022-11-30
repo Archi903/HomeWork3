@@ -18,4 +18,5 @@ public class Main {
         double SunShine = Sun / 3;
 System.out.println("Значение переменной SunShine с типом double равно " + SunShine);
     }
+
 }
