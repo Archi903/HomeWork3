@@ -34,16 +34,16 @@ public class Main {
         System.out.println(a + " принадлежит float" );
         long b = 987678965549L;
         System.out.println(b + " принадлежит long" );
-        float c = 2.786f;
-        System.out.println(c + " принадлежит float" );
+        double c = 2.786;
+        System.out.println(c + " принадлежит double" );
         boolean d = false;
         System.out.println(d + " принадлежит boolean" );
-        short e = 569;
-        System.out.println(e + " принадлежит short" );
+        char e = 569;
+        System.out.println(e + " принадлежит char" );
         short g = -159;
         System.out.println(g + " принадлежит short" );
-        short f = 27897;
-        System.out.println(f + " принадлежит short" );
+        int f = 27897;
+        System.out.println(f + " принадлежит int" );
         byte j = 67;
         System.out.println(j + " принадлежит byte" );
     }
