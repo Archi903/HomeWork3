@@ -36,7 +36,7 @@ public class Main {
         System.out.println(b + " принадлежит long" );
         float c = 2.786f;
         System.out.println(c + " принадлежит float" );
-        boolean d = c >= 2;
+        boolean d = false;
         System.out.println(d + " принадлежит boolean" );
         short e = 569;
         System.out.println(e + " принадлежит short" );
